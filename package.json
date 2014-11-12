@@ -1,0 +1,22 @@
+{
+  "name": "build_with_gulp",
+  "version": "0.0.1",
+  "description": "Introduction to using gulp to generate relative source map files",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "gulp"
+  ],
+  "author": "Mihai Lazar",
+  "license": "MS-PL",
+  "devDependencies": {
+    "mold-source-map": "^0.3.0",
+    "watchify": "^2.1.1",
+    "vinyl-source-stream": "^1.0.0",
+    "gulp": "^3.8.10",
+    "browserify": "^6.3.2",
+    "reactify": "^0.16.0"
+  }
+}

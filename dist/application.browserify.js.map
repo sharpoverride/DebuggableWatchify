@@ -1,0 +1,17 @@
+{
+  "version": 3,
+  "sources": [
+    "..\\node_modules\\browserify\\node_modules\\browser-pack\\_prelude.js",
+    "main.js",
+    "TypeDescriptor.js"
+  ],
+  "names": [],
+  "mappings": "AAAA;ACAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;ACPA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA",
+  "file": "generated.js",
+  "sourceRoot": "file://d:\\work\\build_with_gulp\\src",
+  "sourcesContent": [
+    "(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require==\"function\"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error(\"Cannot find module '\"+o+\"'\");throw f.code=\"MODULE_NOT_FOUND\",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require==\"function\"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})",
+    "/* globals require*/\r\nvar TypeDescriptor = require('./TypeDescriptor'),\r\n    simpleDescriptor = new TypeDescriptor();\r\n\r\nsimpleDescriptor.setType('System.IO.Path');\r\nsimpleDescriptor.setDescription('Some description');\r\n\r\nconsole.log('I defined a simple descriptor', simpleDescriptor);",
+    "'use strict';\r\n\r\nfunction TypeDescriptor() {\r\n}\r\n\r\nTypeDescriptor.prototype = {\r\n    constructor: TypeDescriptor,\r\n    \r\n    setType: function (type){\r\n        this.type = type;\r\n    },\r\n    \r\n    setDescription: function (description) {\r\n        this.description = description;\r\n    }\r\n};\r\n\r\nmodule.exports = TypeDescriptor;"
+  ]
+}
