@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Introduction to using gulp to generate relative source map files",
   "main": "src/main.js",
+  "repository": "https://github.com/sharpoverride/DebuggableWatchify.git",
   "scripts": {
     "test": "npm test"
   },
@@ -12,11 +13,16 @@
   "author": "Mihai Lazar",
   "license": "MS-PL",
   "devDependencies": {
-    "mold-source-map": "^0.3.0",
-    "watchify": "^2.1.1",
-    "vinyl-source-stream": "^1.0.0",
-    "gulp": "^3.8.10",
     "browserify": "^6.3.2",
-    "reactify": "^0.16.0"
+    "chai": "^1.10.0",
+    "gulp": "^3.8.10",
+    "karma": "^0.12.24",
+    "karma-chrome-launcher": "^0.1.5",
+    "karma-mocha": "^0.1.9",
+    "mocha": "^2.0.1",
+    "mold-source-map": "^0.3.0",
+    "reactify": "^0.16.0",
+    "vinyl-source-stream": "^1.0.0",
+    "watchify": "^2.1.1"
   }
 }
