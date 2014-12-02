@@ -14,7 +14,10 @@ module.exports = function(config) {
 
 
     // list of files / patterns to load in the browser
-    files: [
+    files: [{
+        pattern: '**/*.js.map',
+        included: false
+      },
       'application.browserify.js',
       'application.specs.js',
     ],
